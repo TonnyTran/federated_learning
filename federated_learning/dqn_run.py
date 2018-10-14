@@ -52,12 +52,12 @@ print(model.summary())
 # Finally, we configure and compile our agent. You can use every built-in Keras optimizer and
 # even the metrics!
 memory = SequentialMemory(limit=50000, window_length=1)
-policy = EpsGreedyQPolicy()
+policy = EpsGreedyQPolicy(eps=0.05)
 
-version = "0.0_data_limit_1tr_update"
+version = "4.0_600k"
 nb_steps = 1000000
 nb_max_episode_steps = None
-anneal_steps = 800000
+anneal_steps = 600000
 processor = FederatedLearningProcessor()
 dqn = DQNAgent(model=model, nb_actions=nb_actions, memory=memory, processor=processor, nb_steps_warmup=100,
                target_model_update=1e-2, policy=policy, vary_eps=True, anneal_steps=anneal_steps)

@@ -2,8 +2,10 @@ import matplotlib.pyplot as plt
 from xlrd import open_workbook
 import xlsxwriter
 
-book = open_workbook('../results/result_v0.0_data_limit_1tr_update.xls')
-book2 = open_workbook('../results/greedy_v0.1.xls')
+book = open_workbook('../results/greedy_v0.4.xls')
+book2 = open_workbook('../results/greedy_v0.2.xls')
+
+column = 3
 
 file_name = '../result_draw/result_v1.0.xlsx'
 workbook = xlsxwriter.Workbook(file_name)
@@ -16,13 +18,13 @@ interval = 10
 # read header values into the list
 # DDQNkeys = [sheet.cell(0, col_index).value for col_index in xrange(sheet.ncols)]
 X, Y, Y2, Y_average, Y2_average = [], [], [], [], []
-for row_index in xrange(1, sheet2.nrows):
+for row_index in xrange(1, min(sheet.nrows, sheet2.nrows)):
     x = sheet2.cell_value(row_index, 0)
     if row_index < sheet.nrows:
-        y = sheet.cell_value(row_index, 1)
+        y = sheet.cell_value(row_index, column)
     else:
         y = 0
-    y2 = sheet2.cell_value(row_index, 1)
+    y2 = sheet2.cell_value(row_index, column)
 
     Y.append(float(y))
     Y2.append(float(y2))
@@ -44,9 +46,9 @@ print(X)
 print(Y)
 print(Y2)
 plt.xlabel('Number of episodes')
-plt.ylabel('Total reward')
-plt.plot(X, Y_average, 'b', label="Single idle channel", zorder=10)
-plt.plot(X, Y2_average, 'r', label="Multi idle channel", zorder=10)
+plt.ylabel('Energy consumption (J)')
+plt.plot(X, Y_average, 'b', label="DQN", zorder=10)
+plt.plot(X, Y2_average, 'r', label="Greedy", zorder=10)
 
 plt.legend()
 plt.show()

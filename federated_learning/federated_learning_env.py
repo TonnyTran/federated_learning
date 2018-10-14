@@ -31,6 +31,10 @@ class FederatedLearningEnv(gym.Env):
         self.MB2 = Mobile()
         self.MB3 = Mobile()
 
+        self.max_data = self.nb_MB * Mobile.MAX_DATA
+        self.max_energy = self.nb_MB * Mobile.MAX_ENERGY
+        self.max_latency = Mobile.MAX_LATENCY
+
         self.training_time = 0
         self.training_data = 0
 
@@ -49,7 +53,7 @@ class FederatedLearningEnv(gym.Env):
         data_required2 = action[2]
         energy_required2 = action[3]
         data_required3 = action[4]
-        energy_required3= action[5]
+        energy_required3 = action[5]
 
         data1, latency1, energy_consumption1, fault1 = self.MB1.update(data_required1, energy_required1)
         data2, latency2, energy_consumption2, fault2 = self.MB2.update(data_required2, energy_required2)
@@ -66,14 +70,15 @@ class FederatedLearningEnv(gym.Env):
         self.state = tuple(state)
         self.training_data += data
         self.training_time += latency
-        reward = 3 * data - latency/10 - energy_consumption + fault
+        reward = 10 * (3 * data/self.max_data - latency/self.max_latency - energy_consumption/self.max_energy) + fault
 
         if (self.training_data > FederatedLearningEnv.DATA_LIMIT):
             done = True
         else:
             done = False
-        # if (fault < 0):
-        print(np.array(self.state), action, [reward, data, latency, energy_consumption, fault], done)
+        if (fault < 0):
+            print (fault)
+            # print(np.array(self.state), action, [reward, data, latency, energy_consumption, fault], done)
         return np.array(self.state), [reward, data, latency, energy_consumption], done, {}
 
     def reset(self):

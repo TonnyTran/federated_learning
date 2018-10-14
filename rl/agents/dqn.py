@@ -238,8 +238,8 @@ class DQNAgent(AbstractDQNAgent):
             if (self.vary_eps):
                 self.annealExploration()
                 action = self.policy.select_action_vary(q_values=q_values, eps=(self.exploration))
-                # if (self.exploration == 0):
-                #     self.training = False
+                if (self.exploration == 0):
+                    self.training = False
             else:
                 action = self.policy.select_action(q_values=q_values)
         else:
