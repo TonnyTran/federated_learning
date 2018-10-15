@@ -3,7 +3,7 @@ from xlrd import open_workbook
 import xlsxwriter
 
 interval = 10
-book = open_workbook('../results/result_v0.2_800k.xls')
+book = open_workbook('../results/result_v4.0_800k.xls')
 book2 = open_workbook('../results/greedy_v2.0.xls')
 book3 = open_workbook('../results/random_v2.0.xls')
 
@@ -13,7 +13,7 @@ sheet = book.sheet_by_index(0)
 sheet2 = book2.sheet_by_index(0)
 sheet3 = book3.sheet_by_index(0)
 
-file_name = '../result_draw/result_v1.0.xlsx'
+file_name = '../result_draw/result_v1.0_cost.xlsx'
 workbook = xlsxwriter.Workbook(file_name)
 worksheet = workbook.add_worksheet()
 
@@ -46,7 +46,7 @@ workbook.close()
 # print(Y2)
 # print(Y3)
 plt.xlabel('x' + str(interval) + ' Number of episodes')
-plt.ylabel('Total reward')
+plt.ylabel('Energy consumption (J)')
 plt.plot(X, Y1_average, 'r', label="DQN", zorder=10)
 plt.plot(X, Y2_average, 'b', label="Greedy", zorder=10)
 plt.plot(X, Y3_average, 'g', label="Random", zorder=10)

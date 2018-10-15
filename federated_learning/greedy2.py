@@ -6,7 +6,7 @@ import math
 
 env = FederatedLearningEnv()
 env.reset()
-nb_steps = 1000000
+nb_steps = 3000000
 version = '2.0'
 
 step = 0

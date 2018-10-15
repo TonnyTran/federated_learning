@@ -7,8 +7,8 @@ import random
 
 env = FederatedLearningEnv()
 env.reset()
-nb_steps = 1000000
-version = '2.1'
+nb_steps = 3000000
+version = '2.0'
 
 step = 0
 episode = 0
