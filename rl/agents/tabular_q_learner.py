@@ -8,7 +8,7 @@ class QLearner(object):
 
   def __init__(self, state_dim,
                      num_actions,
-                     init_exp=0.9,     # initial exploration prob
+                     init_exp=0.5,     # initial exploration prob
                      final_exp=0.0,    # final exploration prob
                      anneal_steps=500000, # N steps for annealing exploration
                      alpha = 0.2,

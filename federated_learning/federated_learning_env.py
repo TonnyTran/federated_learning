@@ -76,10 +76,10 @@ class FederatedLearningEnv(gym.Env):
             done = True
         else:
             done = False
-        if (fault < 0):
-            print (fault)
+        # if (fault < 0):
+        #     print (fault)
             # print(np.array(self.state), action, [reward, data, latency, energy_consumption, fault], done)
-        return np.array(self.state), [reward, data, latency, energy_consumption], done, {}
+        return np.array(self.state), [reward, data, latency, energy_consumption, data1, data2, data3], done, {}
 
     def reset(self):
         self.state = []
