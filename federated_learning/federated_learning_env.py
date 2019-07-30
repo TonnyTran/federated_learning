@@ -70,7 +70,7 @@ class FederatedLearningEnv(gym.Env):
         self.state = tuple(state)
         self.training_data += data
         self.training_time += latency
-        reward = 10 * (3 * data/self.max_data - latency/self.max_latency - energy_consumption/self.max_energy) + fault
+        reward = 10 * (5 * data/self.max_data - latency/self.max_latency - energy_consumption/self.max_energy) + fault
 
         if (self.training_data > FederatedLearningEnv.DATA_LIMIT):
             done = True
@@ -79,6 +79,7 @@ class FederatedLearningEnv(gym.Env):
         # if (fault < 0):
         #     print (fault)
             # print(np.array(self.state), action, [reward, data, latency, energy_consumption, fault], done)
+        reward /= 10
         return np.array(self.state), [reward, data, latency, energy_consumption, data1, data2, data3], done, {}
 
     def reset(self):

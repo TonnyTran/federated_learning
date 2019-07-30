@@ -4,16 +4,16 @@ import xlsxwriter
 
 interval = 10
 book = open_workbook('../results/result_v2.0_800k.xls')
-book2 = open_workbook('../results/greedy_v2.0.xls')
-book3 = open_workbook('../results/random_v2.0.xls')
+book2 = open_workbook('../results/result_v9.513_2.xls')
+book3 = open_workbook('../results/result_v9.531_2.xls')
 
-column = 4
+column = 3
 
 sheet = book.sheet_by_index(0)
 sheet2 = book2.sheet_by_index(0)
 sheet3 = book3.sheet_by_index(0)
 
-file_name = '../result_draw/result_v2.0_cost.xlsx'
+file_name = '../result_draw/result_v9.0_time.xlsx'
 workbook = xlsxwriter.Workbook(file_name)
 worksheet = workbook.add_worksheet()
 

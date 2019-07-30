@@ -54,10 +54,10 @@ print(model.summary())
 memory = SequentialMemory(limit=50000, window_length=1)
 policy = EpsGreedyQPolicy(eps=0.05)
 
-version = "3.2"
-nb_steps = 1500000
+version = "9.511"
+nb_steps = 2000000
 nb_max_episode_steps = None
-anneal_steps = 800000
+anneal_steps = 9000000
 processor = FederatedLearningProcessor()
 dqn = DQNAgent(model=model, nb_actions=nb_actions, memory=memory, processor=processor, nb_steps_warmup=100,
                target_model_update=1e-2, policy=policy, vary_eps=True, anneal_steps=anneal_steps)

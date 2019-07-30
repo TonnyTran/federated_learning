@@ -3,10 +3,10 @@ from xlrd import open_workbook
 import xlsxwriter
 
 interval = 10
-book = open_workbook('../results/result_v2.0_800k.xls')
-book2 = open_workbook('../results/greedy_v2.0.xls')
-book3 = open_workbook('../results/random_v2.0.xls')
-book4 = open_workbook('../results/result_v4.0_QL_QL.xls')
+book = open_workbook('../results/result_v9.513_2.xls')
+book2 = open_workbook('../results/result_v9.513_2.xls')
+book3 = open_workbook('../results/result_v9.531_2.xls')
+book4 = open_workbook('../results/result_v2.0_800k.xls')
 
 column = 4
 
@@ -53,7 +53,7 @@ workbook.close()
 # print(Y2)
 # print(Y3)
 plt.xlabel('x' + str(interval) + ' Number of episodes')
-plt.ylabel('Latency (s)')
+plt.ylabel('Energy (s)')
 plt.plot(X, Y1_average, 'r', label="DQN", zorder=10)
 plt.plot(X, Y2_average, 'b', label="Greedy", zorder=10)
 plt.plot(X, Y3_average, 'g', label="Random", zorder=10)

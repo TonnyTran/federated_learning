@@ -150,7 +150,7 @@ class DQNAgent(AbstractDQNAgent):
         self.test_policy = test_policy
 
         # eGreedy parameters
-        self.init_exp = 0.5
+        self.init_exp = 0.6
         self.final_exp = 0.0
         self.exploration = self.init_exp
         self.anneal_steps = anneal_steps

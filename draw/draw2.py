@@ -2,12 +2,12 @@ import matplotlib.pyplot as plt
 from xlrd import open_workbook
 import xlsxwriter
 
-book = open_workbook('../results/greedy_v0.4.xls')
-book2 = open_workbook('../results/greedy_v0.2.xls')
+book = open_workbook('../results/result_v8.0_2.xls')
+book2 = open_workbook('../results/result_v2.0_800k.xls')
 
-column = 3
+column = 4
 
-file_name = '../result_draw/result_v1.0.xlsx'
+file_name = '../result_draw/result_v8.0_cost.xlsx'
 workbook = xlsxwriter.Workbook(file_name)
 worksheet = workbook.add_worksheet()
 

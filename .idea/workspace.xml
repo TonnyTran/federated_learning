@@ -3,28 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="51899852-4d6d-45e0-afac-9c533233597e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draw/draw01.py" beforeDir="false" afterPath="$PROJECT_DIR$/draw/draw01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw/draw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/draw/draw2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draw/draw3.py" beforeDir="false" afterPath="$PROJECT_DIR$/draw/draw3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draw/draw4.py" beforeDir="false" afterPath="$PROJECT_DIR$/draw/draw4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw/energy_consumption.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/draw/reward.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/federated_learning/dqn_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/federated_learning/dqn_run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/federated_learning/federated_learning_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/federated_learning/federated_learning_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/federated_learning/greedy2.py" beforeDir="false" afterPath="$PROJECT_DIR$/federated_learning/greedy2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/federated_learning/ql_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/federated_learning/ql_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/federated_learning/random_policy2.py" beforeDir="false" afterPath="$PROJECT_DIR$/federated_learning/random_policy2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_draw/result_v1.0_cost.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/result_draw/result_v1.0_cost.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v0.2_800k.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v0.3_400k.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v0.3_700k.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v1.0_1.5tr.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v1.0_1tr.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v2.0_1tr.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v2.0_600k.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v3.0_fix_05.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v4.0_1tr.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v4.0_600k.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/result_v4.0_800k.xls" beforeDir="false" afterPath="$PROJECT_DIR$/results/result_v2.0_800k.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl/agents/tabular_q_learner.py" beforeDir="false" afterPath="$PROJECT_DIR$/rl/agents/tabular_q_learner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rl/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/rl/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_draw/result_v1.0.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/result_draw/result_v1.0.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_draw/result_v2.0_cost.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/result_draw/result_v2.0_cost.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_draw/result_v4.0_cost.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/result_draw/result_v4.0_cost.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rl/agents/dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/rl/agents/dqn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/save_weight/dqn_Federated_Learning_weights.h5f" beforeDir="false" afterPath="$PROJECT_DIR$/save_weight/dqn_Federated_Learning_weights.h5f" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,22 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/federated_learning/greedy2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/federated_learning/federated_learning_env.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="72" column="118" selection-start-line="72" selection-start-column="113" selection-end-line="72" selection-end-column="118" />
+            <state relative-caret-position="228">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -60,9 +37,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/federated_learning/action_space.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/federated_learning/mobile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="67" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/federated_learning/random_policy3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="570">
               <caret line="35" column="85" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
@@ -72,34 +70,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/federated_learning/random_policy2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/draw/draw01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/draw/draw3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="28" selection-end-line="53" selection-end-column="10" />
+            <state relative-caret-position="190">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -107,14 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/draw/draw4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="95">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="49" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/draw/draw2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -122,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/federated_learning/ql_run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="760">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -134,15 +117,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rl/agents/tabular_q_learner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-670">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="57">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/draw/computational_delay.png">
-          <provider selected="true" editor-type-id="images" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/federated_learning/dqn_run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="611">
+              <caret line="65" column="91" lean-forward="true" selection-start-line="65" selection-start-column="91" selection-end-line="65" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -175,23 +165,23 @@
         <option value="$PROJECT_DIR$/backscatter/draft.py" />
         <option value="$PROJECT_DIR$/federated_learning/draft.py" />
         <option value="$USER_HOME$/anaconda2/envs/tensorflow/lib/python2.7/site-packages/gym/spaces/discrete.py" />
-        <option value="$PROJECT_DIR$/draw/draw2.py" />
-        <option value="$PROJECT_DIR$/rl/agents/dqn.py" />
         <option value="$PROJECT_DIR$/federated_learning/ramdom_policy.py" />
         <option value="$PROJECT_DIR$/federated_learning/greedy.py" />
         <option value="$PROJECT_DIR$/federated_learning/mobile.py" />
         <option value="$PROJECT_DIR$/federated_learning/random_policy3.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/draw/draw3.py" />
         <option value="$PROJECT_DIR$/rl/core.py" />
-        <option value="$PROJECT_DIR$/federated_learning/dqn_run.py" />
         <option value="$PROJECT_DIR$/draw/draw01.py" />
         <option value="$PROJECT_DIR$/federated_learning/greedy2.py" />
         <option value="$PROJECT_DIR$/federated_learning/random_policy2.py" />
         <option value="$PROJECT_DIR$/rl/agents/tabular_q_learner.py" />
         <option value="$PROJECT_DIR$/federated_learning/ql_run.py" />
-        <option value="$PROJECT_DIR$/federated_learning/federated_learning_env.py" />
+        <option value="$PROJECT_DIR$/rl/agents/dqn.py" />
+        <option value="$PROJECT_DIR$/federated_learning/dqn_run.py" />
         <option value="$PROJECT_DIR$/draw/draw4.py" />
+        <option value="$PROJECT_DIR$/draw/draw3.py" />
+        <option value="$PROJECT_DIR$/draw/draw2.py" />
+        <option value="$PROJECT_DIR$/federated_learning/federated_learning_env.py" />
       </list>
     </option>
   </component>
@@ -209,18 +199,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="06_federated_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="06_federated_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="06_federated_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="06_federated_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="draw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="06_federated_learning" type="b2602c69:ProjectViewProjectNode" />
@@ -241,10 +225,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../07_backscatter_blockchain" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -264,8 +250,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.draw4">
-    <configuration name="draw01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dqn_run">
+    <configuration name="dqn_run" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
+      <module name="06_federated_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/federated_learning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/federated_learning/dqn_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw2" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="06_federated_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,7 +284,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw/draw01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw/draw2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -286,7 +293,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="draw4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="draw3" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
+      <module name="06_federated_learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/draw" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw/draw3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draw4" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="06_federated_learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,27 +327,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw/draw4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="greedy2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="06_federated_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/federated_learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/federated_learning/greedy2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,41 +356,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_policy2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="06_federated_learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/federated_learning" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/federated_learning/random_policy2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.draw01" />
-      <item itemvalue="Python.ql_run" />
+      <item itemvalue="Python.dqn_run" />
+      <item itemvalue="Python.draw2" />
+      <item itemvalue="Python.draw3" />
       <item itemvalue="Python.draw4" />
-      <item itemvalue="Python.greedy2" />
-      <item itemvalue="Python.random_policy2" />
+      <item itemvalue="Python.ql_run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dqn_run" />
+        <item itemvalue="Python.draw2" />
+        <item itemvalue="Python.draw3" />
         <item itemvalue="Python.draw4" />
         <item itemvalue="Python.ql_run" />
-        <item itemvalue="Python.random_policy2" />
-        <item itemvalue="Python.greedy2" />
-        <item itemvalue="Python.draw01" />
       </list>
     </recent_temporary>
   </component>
@@ -404,18 +390,18 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945416" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49949032" visible="true" weight="0.24945416" />
+      <window_info id="Structure" order="1" sideWeight="0.5005097" side_tool="true" visible="true" weight="0.24945416" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28108674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28848115" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33054394" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33027524" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -446,13 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draw/draw2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -495,20 +474,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw/energy_consumption.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/draw/energy_consumption.png" />
     <entry file="file://$PROJECT_DIR$/federated_learning/action_alanysis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/federated_learning/action_space.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -519,80 +489,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rl/agents/dqn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2363">
-          <caret line="253" column="36" selection-start-line="253" selection-start-column="31" selection-end-line="253" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/federated_learning/mobile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rl/core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="349" column="51" selection-start-line="349" selection-start-column="51" selection-end-line="349" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/federated_learning/dqn_run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draw/computational_delay.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draw/draw3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="28" selection-end-line="53" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draw/draw01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/federated_learning/greedy2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/federated_learning/random_policy3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="85" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,49 +506,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/federated_learning/random_policy2.py">
+    <entry file="file://$PROJECT_DIR$/federated_learning/greedy2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="152">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rl/agents/tabular_q_learner.py">
+    <entry file="file://$PROJECT_DIR$/federated_learning/random_policy2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-670">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/federated_learning/ql_run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="171">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/federated_learning/federated_learning_env.py">
+    <entry file="file://$PROJECT_DIR$/draw/draw01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="118" selection-start-line="72" selection-start-column="113" selection-end-line="72" selection-end-column="118" />
+        <state relative-caret-position="95">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw/computational_delay.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw/draw_busy_slot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rl/agents/dqn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/federated_learning/random_policy3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="35" column="85" selection-start-line="35" selection-start-column="85" selection-end-line="35" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw/draw3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/draw/draw4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="95">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="49" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw/draw2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/federated_learning/ql_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rl/agents/tabular_q_learner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/federated_learning/mobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/federated_learning/action_space.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/federated_learning/federated_learning_env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/federated_learning/dqn_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="65" column="91" lean-forward="true" selection-start-line="65" selection-start-column="91" selection-end-line="65" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
