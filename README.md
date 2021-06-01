@@ -51,8 +51,8 @@ pip install keras-rl
 - Install from Github source:
 
 ```
-git clone https://github.com/keras-rl/keras-rl.git
-cd keras-rl
+git clone https://github.com/TonnyTran/federated_learning.git
+cd federated_learning
 python setup.py install
 ```
 
